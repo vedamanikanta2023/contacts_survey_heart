@@ -1,0 +1,29 @@
+.button-style {
+    position: fixed;
+    right: 17px;
+    bottom: 40px;
+}
+
+.popup {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 999;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-innter-container {
+    max-width:300px;
+    min-width: 220px;
+}
+
+.chat-notification-title {
+    color: #1a202c;
+    font-size: 1.25rem;
+    line-height: 1.25;
+  }
