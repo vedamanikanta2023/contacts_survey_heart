@@ -54,7 +54,7 @@ const ContactList = (props)=>{
             alert("Please give name/phone_number");
             return;
         }
-        if (!numStore.id){
+        if (numStore.id===undefined){
             delete numStore.id;
             setNumbers([...numbers,numStore]);
             //if we use API's I'll call POST API here
